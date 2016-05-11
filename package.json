@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zsenci/AutomaticDeployHeroku.git"
+    "url": "https://github.com/zsenci/contdep.git"
   },
   "keywords": [
     "Rest",
@@ -23,7 +23,7 @@
     "restify": "^4.0.3"
   }, 
   "bugs": {
-    "url": "https://github.com/zsenci/AutomaticDeployHeroku/issues"
+    "url": "https://github.com/zsenci/contdep/issues"
   },
-  "homepage": "https://github.com/zsenci/AutomaticDeployHeroku"
+  "homepage": "https://github.com/zsenci/contdep"
 }
