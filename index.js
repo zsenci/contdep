@@ -36,16 +36,17 @@ server.get("/", restify.serveStatic({
 
 server.get("/demo/getexample", function(req, res) {
     // Use mongodb as a persistence  layer later
-   // put on the console the request
+    // put on the console the request
     //console.log('request  description: ');
 
+    //var respRandomValue = Math.floor(Math.random() * 10 + 1) ;
 
-    var respRandomValue = Math.floor(Math.random() * 10 + 1) ;
-
-    console.log('request  description: ', respRandomValue);
-    res.json({type: true, data: 'kapott valasz:  v1.0' + respRandomValue});
-
-
+   // console.log('request  description: ', respRandomValue);
+    console.log('request  description: message');
+ //   res.json({type: true, data: 'kapott valasz:  v1.0' + respRandomValue});
+ 
+	res.json({type: true, data: 'Hello world! Today is another day :)'});
+	
     // prepare the json answer
     //res.json({type: true, data: 'Answer for the get Answer '});
 });
